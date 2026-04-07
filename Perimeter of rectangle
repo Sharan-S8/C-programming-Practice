@@ -1,0 +1,7 @@
+#include <stdio.h>
+void main() {
+    int length, breadth, perimeter;
+    scanf("%d %d", &length, &breadth);
+    perimeter = 2 * (length + breadth);
+    printf("perimeter = %d", perimeter);
+}
