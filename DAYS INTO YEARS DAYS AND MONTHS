@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main()
+{
+    int days,a,b,c,d;
+    scanf("%d",&days);
+    a=days/365;
+    d=days%365;
+    b=d/30;
+    c=d%30;
+    printf("%d Years %d months %d days",a,b,c);
+}
